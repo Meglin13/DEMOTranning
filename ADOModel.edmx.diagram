@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="154ad9e608e74e3fa969b6b8f1c2b3f3" Name="Diagram1">
+        <EntityTypeShape EntityType="dfominaDEMOModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.Manufacturers" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.Order" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.OrderPickUpPoints" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.OrderProduct" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.Providers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.Role" Width="1.5" PointX="5.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dfominaDEMOModel.User" Width="1.5" PointX="8" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="dfominaDEMOModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK_Product_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK__OrderProd__Order__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK_Order_OrderPickUpPoints" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK__OrderProd__Produ__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK_Product_Providers" ManuallyRouted="false" />
+        <AssociationConnector Association="dfominaDEMOModel.FK__User__UserRole__1273C1CD" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
